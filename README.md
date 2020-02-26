@@ -24,7 +24,7 @@ Deep-Learning model with the following architecture and configuration was also u
 model_deeplearning = keras.Sequential([
     keras.layers.Flatten(input_shape=(5,)),
     keras.layers.Dense(16, activation=tf.nn.relu),
-	  keras.layers.Dense(16, activation=tf.nn.relu),
+    keras.layers.Dense(16, activation=tf.nn.relu),
     keras.layers.Dense(1, activation=tf.nn.sigmoid),
 ])
 
